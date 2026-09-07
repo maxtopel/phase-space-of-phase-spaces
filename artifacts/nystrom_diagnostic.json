@@ -1,0 +1,30 @@
+{
+  "n_sample_heldout": 5884,
+  "n_exhaustive": 17025,
+  "sigma": 0.38940840164173823,
+  "landmark_dist_exhaustive": {
+    "p5": 0.9316596865309256,
+    "median": 0.9834687958036034,
+    "p95": 1.0931342148391179
+  },
+  "landmark_dist_heldout": {
+    "p5": 0.953676630946063,
+    "median": 0.981842236824306,
+    "p95": 1.0939227091777062
+  },
+  "frac_heldout_beyond_exhaustive_p95": 0.05200543847722638,
+  "coord_norm_median_exhaustive": 0.022077249887492097,
+  "coord_norm_median_heldout": 0.021652367996928372,
+  "corr_landmarkdist_vs_lognorm_exhaustive": -0.7732964740973711,
+  "iqr_exhaustive": [
+    0.0038469576179254368,
+    0.011191226976288828,
+    0.009810373873715665
+  ],
+  "iqr_heldout": [
+    0.0036652438117650748,
+    0.010069152760431008,
+    0.00935357905400486
+  ],
+  "verdict": "SUBSTANTIVE: held-out series are inside the landmark cover"
+}

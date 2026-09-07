@@ -1,0 +1,25 @@
+Vendored modules — attribution
+==============================
+
+The Python files in this directory are verbatim copies of modules
+originally written for the Atlas research codebase, redistributed here so
+that the public reproduction package is self-contained.
+
+Source: the (private) Atlas research codebase.
+Vendored files (only the three modules the repro pipeline actually uses):
+  embed.py    -- Takens delay embedding + AMI/FNN parameter selection
+  diffuse.py  -- diffusion maps (dense + Nystrom)
+  config.py   -- EmbedConfig / DmapConfig dataclasses needed by the above
+
+Copyright (c) Maximilian Topel; redistributed under the MIT license of the
+parent this repository:  package (see ../../LICENSE).
+
+These modules depend only on numpy / scipy / sklearn / POT / matplotlib /
+joblib / ripser (already listed in this repository: requirements.txt). The
+vendored config.py is needed for the `from config import ...` statements
+inside the other vendored modules; `aoa_repro.config.use_vendor()` adds
+this directory to sys.path so those imports resolve.
+
+If the Atlas modules are subsequently published as a standalone package,
+this directory should be replaced with an ordinary dependency declaration
+in requirements.txt and the local files removed.

@@ -1,0 +1,42 @@
+{
+  "eps_matched": 0.008,
+  "by_eps": {
+    "0.008": {
+      "macro_struct_mean": 0.048151024285254675,
+      "ctrl_struct_mean": 0.04367577905905444,
+      "ratio": 1.1024651493943407,
+      "auc": 0.5876844007681012,
+      "complete_separation": false
+    },
+    "0.02": {
+      "macro_struct_mean": 0.007250249615318067,
+      "ctrl_struct_mean": 0.004963875648000658,
+      "ratio": 1.4606025874637514,
+      "auc": 0.5792948717948718,
+      "complete_separation": false
+    },
+    "0.05": {
+      "macro_struct_mean": 0.001450915124927039,
+      "ctrl_struct_mean": 0.001327356087690268,
+      "ratio": 1.0930865789388708,
+      "auc": 0.4326089743589744,
+      "complete_separation": false
+    }
+  },
+  "n_macro": 17025,
+  "n_controls": 156,
+  "macro_struct_mean": 0.048151024285254675,
+  "ctrl_struct_mean": 0.04367577905905444,
+  "ratio_macro_over_ctrl": 1.1024651493943407,
+  "auc_macro_vs_ctrl": 0.5876844007681012,
+  "complete_separation": false,
+  "ctrl_frac_within_support": 0.9871794871794872,
+  "ctrl_median_dist_to_manifold": 0.0072546161026453265,
+  "within_manifold_nn_median": 0.007988997043479447,
+  "by_source_median_dist": {
+    "noaa": 0.007119933808519651,
+    "rivers": 0.006343820897181588,
+    "who": 0.007647875735830067
+  },
+  "note": "matched-settings rerun 2026-09-05; supersedes controls_separation.json, whose 42x/AUC 1.000 compared eps=0.008 macro plans against eps=0.05 control plans"
+}

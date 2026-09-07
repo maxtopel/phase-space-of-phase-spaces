@@ -1,0 +1,38 @@
+{
+  "n_matched": 2000,
+  "reps": 6,
+  "groups": {
+    "Full corpus": {
+      "n_available": 17025,
+      "mean": 7.26808885721876,
+      "sd": 0.051155939880624404
+    },
+    "Rate-only": {
+      "n_available": 2744,
+      "mean": 8.457671991264133,
+      "sd": 0.05917968155615533
+    },
+    "Monetary": {
+      "n_available": 2871,
+      "mean": 8.425107912079836,
+      "sd": 0.04892391257358279
+    },
+    "Real activity": {
+      "n_available": 3316,
+      "mean": 5.56982765498913,
+      "sd": 0.0812483874811886
+    },
+    "Exchange rate": {
+      "n_available": 2169,
+      "mean": 6.6263108305538205,
+      "sd": 0.00887832505802549
+    },
+    "Concept-balanced": {
+      "n_available": 2000,
+      "mean": 7.128509822725022,
+      "sd": 0.0
+    }
+  },
+  "spread": 2.8878443362750037,
+  "relative_spread": 0.3985476697198956
+}

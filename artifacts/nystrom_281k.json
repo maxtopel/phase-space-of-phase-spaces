@@ -1,0 +1,12 @@
+{
+  "n_exhaustive": 17025,
+  "n_extended": 381677,
+  "K_landmarks": 800,
+  "sigma": 0.38940840164173823,
+  "d_eff_exhaustive": 5.0958566454879275,
+  "d_eff_extended": 5.42434752164351,
+  "median_dist_extended_to_manifold": 0.007644693570250848,
+  "median_within_manifold_nn": 0.007988997043479447,
+  "frac_extended_within_manifold_support": 0.9961171356932694,
+  "elapsed_s": 36565.11589193344
+}

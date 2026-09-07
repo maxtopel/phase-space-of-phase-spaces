@@ -1,0 +1,38 @@
+{
+  "n_macro": 17025,
+  "n_controls": 156,
+  "macro_struct_mean": 0.048151024285254675,
+  "macro_struct_sd": 0.013238446308230723,
+  "macro_struct_min": 0.017033299642082424,
+  "macro_entropy_norm_mean": 0.8813709369686004,
+  "by_eps": {
+    "0.05": {
+      "ctrl_struct_mean": 0.0011523216744367154,
+      "ctrl_struct_sd": 0.0003353855954147784,
+      "ctrl_struct_max": 0.003632811708725574,
+      "ctrl_entropy_norm_mean": 0.9998446264316542,
+      "ratio_macro_over_ctrl": 41.786096151313075,
+      "auc_macro_vs_ctrl": 1.0,
+      "complete_separation": true,
+      "by_source": {
+        "noaa": 0.0010618279384677564,
+        "rivers": 0.0010722956028738427,
+        "who": 0.0011920448524203508
+      }
+    },
+    "0.02": {
+      "ctrl_struct_mean": 0.0035372309042112403,
+      "ctrl_struct_sd": 0.0025012330727769818,
+      "ctrl_struct_max": 0.02370575505396762,
+      "ctrl_entropy_norm_mean": 0.9982588271084304,
+      "ratio_macro_over_ctrl": 13.612632476983226,
+      "auc_macro_vs_ctrl": 0.9999807974697843,
+      "complete_separation": false,
+      "by_source": {
+        "noaa": 0.00304350213403969,
+        "rivers": 0.0028494477683954013,
+        "who": 0.003825042880417903
+      }
+    }
+  }
+}

@@ -1,0 +1,1196 @@
+{
+  "version": 1,
+  "created_at": "2026-04-08T15:01:55Z",
+  "K_values": [
+    20,
+    50,
+    100,
+    200
+  ],
+  "min_N": 200,
+  "tests": {
+    "fama_french": {
+      "N": 290,
+      "sweeps": [
+        {
+          "K": 20,
+          "methods": {
+            "random_triangle": {
+              "frobenius_relative_error": 0.7377857214597938,
+              "spearman_rho": 0.6377437163766603,
+              "mode1_cosine": 0.9884761980174788,
+              "wall_s": 0.01634979248046875
+            },
+            "random_euclidean": {
+              "frobenius_relative_error": 0.8644623436747375,
+              "spearman_rho": 0.661896603615049,
+              "mode1_cosine": 0.961354842679706,
+              "wall_s": 0.012279033660888672
+            },
+            "random_nystrom": {
+              "frobenius_relative_error": 0.5168941204132186,
+              "spearman_rho": 0.544068748861559,
+              "mode1_cosine": 0.9954477430773717,
+              "wall_s": 0.013041019439697266
+            },
+            "fps_triangle": {
+              "frobenius_relative_error": 0.785650631342548,
+              "spearman_rho": 0.3571435956851798,
+              "mode1_cosine": 0.9749780132048396,
+              "wall_s": 0.014342308044433594
+            },
+            "fps_euclidean": {
+              "frobenius_relative_error": 0.8965514917300049,
+              "spearman_rho": 0.5999082559610792,
+              "mode1_cosine": 0.9468037861851304,
+              "wall_s": 0.012104034423828125
+            },
+            "fps_nystrom": {
+              "frobenius_relative_error": 0.5833723092587515,
+              "spearman_rho": 0.5863259195963261,
+              "mode1_cosine": 0.988138744655247,
+              "wall_s": 0.012158870697021484
+            }
+          }
+        },
+        {
+          "K": 50,
+          "methods": {
+            "random_triangle": {
+              "frobenius_relative_error": 0.6286881943962388,
+              "spearman_rho": 0.5083744504006076,
+              "mode1_cosine": 0.9865684314951657,
+              "wall_s": 0.017369747161865234
+            },
+            "random_euclidean": {
+              "frobenius_relative_error": 0.8589101923857074,
+              "spearman_rho": 0.6748514501752313,
+              "mode1_cosine": 0.9685389457817657,
+              "wall_s": 0.012432098388671875
+            },
+            "random_nystrom": {
+              "frobenius_relative_error": 0.22483534973640118,
+              "spearman_rho": 0.38685171685227177,
+              "mode1_cosine": 0.03915561245608793,
+              "wall_s": 0.01252603530883789
+            },
+            "fps_triangle": {
+              "frobenius_relative_error": 0.6885996022899294,
+              "spearman_rho": 0.11684993809047034,
+              "mode1_cosine": 0.982604921255375,
+              "wall_s": 0.014911890029907227
+            },
+            "fps_euclidean": {
+              "frobenius_relative_error": 0.8832324368264919,
+              "spearman_rho": 0.7700490381625704,
+              "mode1_cosine": 0.9620544582117028,
+              "wall_s": 0.012410879135131836
+            },
+            "fps_nystrom": {
+              "frobenius_relative_error": 0.30908698964420095,
+              "spearman_rho": 0.7005076385652026,
+              "mode1_cosine": 0.9879477986033482,
+              "wall_s": 0.012446165084838867
+            }
+          }
+        },
+        {
+          "K": 100,
+          "methods": {
+            "random_triangle": {
+              "frobenius_relative_error": 0.48709974272079243,
+              "spearman_rho": 0.45626521993412716,
+              "mode1_cosine": 0.9845707778584598,
+              "wall_s": 0.019731998443603516
+            },
+            "random_euclidean": {
+              "frobenius_relative_error": 0.856752713577969,
+              "spearman_rho": 0.7264229882229875,
+              "mode1_cosine": 0.9734990262340542,
+              "wall_s": 0.01212000846862793
+            },
+            "random_nystrom": {
+              "frobenius_relative_error": 0.17286782253092475,
+              "spearman_rho": 0.45150031714107414,
+              "mode1_cosine": 0.04533067020950152,
+              "wall_s": 0.013255834579467773
+            },
+            "fps_triangle": {
+              "frobenius_relative_error": 0.5189134859076144,
+              "spearman_rho": 0.16148244794303537,
+              "mode1_cosine": 0.9890418990814098,
+              "wall_s": 0.01760101318359375
+            },
+            "fps_euclidean": {
+              "frobenius_relative_error": 0.8715913318007579,
+              "spearman_rho": 0.87085727240367,
+              "mode1_cosine": 0.9559499830181662,
+              "wall_s": 0.012384176254272461
+            },
+            "fps_nystrom": {
+              "frobenius_relative_error": 0.18804210066643204,
+              "spearman_rho": 0.2565981930463236,
+              "mode1_cosine": 0.578085766450946,
+              "wall_s": 0.01300668716430664
+            }
+          }
+        },
+        {
+          "K": 200,
+          "methods": {
+            "random_triangle": {
+              "frobenius_relative_error": 0.22604285001279234,
+              "spearman_rho": 0.7953396815516035,
+              "mode1_cosine": 0.9942310106707739,
+              "wall_s": 0.028026103973388672
+            },
+            "random_euclidean": {
+              "frobenius_relative_error": 0.8545490733310704,
+              "spearman_rho": 0.8030977347213288,
+              "mode1_cosine": 0.977427114054818,
+              "wall_s": 0.012566089630126953
+            },
+            "random_nystrom": {
+              "frobenius_relative_error": 0.38374129866802437,
+              "spearman_rho": 0.3016386432235855,
+              "mode1_cosine": 0.04282794871904072,
+              "wall_s": 0.014745950698852539
+            },
+            "fps_triangle": {
+              "frobenius_relative_error": 0.22505382460687642,
+              "spearman_rho": 0.7634275036848505,
+              "mode1_cosine": 0.9581099144555142,
+              "wall_s": 0.021228790283203125
+            },
+            "fps_euclidean": {
+              "frobenius_relative_error": 0.8600972219696541,
+              "spearman_rho": 0.8876981858889175,
+              "mode1_cosine": 0.9438304711633322,
+              "wall_s": 0.012629985809326172
+            },
+            "fps_nystrom": {
+              "frobenius_relative_error": 0.4265116110753129,
+              "spearman_rho": 0.17368230345075156,
+              "mode1_cosine": 0.07841568468169641,
+              "wall_s": 0.014605998992919922
+            }
+          }
+        }
+      ]
+    },
+    "global_macro": {
+      "N": 250,
+      "sweeps": [
+        {
+          "K": 20,
+          "methods": {
+            "random_triangle": {
+              "frobenius_relative_error": 0.7689549368668953,
+              "spearman_rho": 0.6015609277689565,
+              "mode1_cosine": 0.9593805892502354,
+              "wall_s": 0.010323762893676758
+            },
+            "random_euclidean": {
+              "frobenius_relative_error": 0.8872365157003218,
+              "spearman_rho": 0.5724542024135811,
+              "mode1_cosine": 0.9165232054643871,
+              "wall_s": 0.009021759033203125
+            },
+            "random_nystrom": {
+              "frobenius_relative_error": 0.6024353612362716,
+              "spearman_rho": 0.4846796755315676,
+              "mode1_cosine": 0.9785459830916778,
+              "wall_s": 0.009103775024414062
+            },
+            "fps_triangle": {
+              "frobenius_relative_error": 0.8445733233229569,
+              "spearman_rho": 0.30665041479178756,
+              "mode1_cosine": 0.9244738813752291,
+              "wall_s": 0.010148048400878906
+            },
+            "fps_euclidean": {
+              "frobenius_relative_error": 0.898728071751701,
+              "spearman_rho": 0.6515634468004857,
+              "mode1_cosine": 0.9173195732662921,
+              "wall_s": 0.009111166000366211
+            },
+            "fps_nystrom": {
+              "frobenius_relative_error": 0.6082897110265051,
+              "spearman_rho": 0.6839050721888772,
+              "mode1_cosine": 0.9837751718682339,
+              "wall_s": 0.009102106094360352
+            }
+          }
+        },
+        {
+          "K": 50,
+          "methods": {
+            "random_triangle": {
+              "frobenius_relative_error": 0.6497123712014339,
+              "spearman_rho": 0.4866436332709664,
+              "mode1_cosine": 0.967465632395066,
+              "wall_s": 0.011235713958740234
+            },
+            "random_euclidean": {
+              "frobenius_relative_error": 0.8777184293088908,
+              "spearman_rho": 0.5714886227716339,
+              "mode1_cosine": 0.9421475989800101,
+              "wall_s": 0.009068012237548828
+            },
+            "random_nystrom": {
+              "frobenius_relative_error": 0.3733058070668456,
+              "spearman_rho": 0.3822174616631665,
+              "mode1_cosine": 0.9874283474138996,
+              "wall_s": 0.009402990341186523
+            },
+            "fps_triangle": {
+              "frobenius_relative_error": 0.6874310195985213,
+              "spearman_rho": 0.02841616348787548,
+              "mode1_cosine": 0.9320693058069497,
+              "wall_s": 0.011302947998046875
+            },
+            "fps_euclidean": {
+              "frobenius_relative_error": 0.8882102134050431,
+              "spearman_rho": 0.7159603174073584,
+              "mode1_cosine": 0.9745965660179176,
+              "wall_s": 0.009206056594848633
+            },
+            "fps_nystrom": {
+              "frobenius_relative_error": 0.41492854386753075,
+              "spearman_rho": 0.7009702466121182,
+              "mode1_cosine": 0.9954170013682634,
+              "wall_s": 0.009543180465698242
+            }
+          }
+        },
+        {
+          "K": 100,
+          "methods": {
+            "random_triangle": {
+              "frobenius_relative_error": 0.47046991826524037,
+              "spearman_rho": 0.4804665457501222,
+              "mode1_cosine": 0.9799641307734454,
+              "wall_s": 0.0126190185546875
+            },
+            "random_euclidean": {
+              "frobenius_relative_error": 0.8705835415139266,
+              "spearman_rho": 0.6353949529326121,
+              "mode1_cosine": 0.9658353325170437,
+              "wall_s": 0.009155035018920898
+            },
+            "random_nystrom": {
+              "frobenius_relative_error": 0.14332721776866658,
+              "spearman_rho": 0.4732387879805182,
+              "mode1_cosine": 0.30999924349226315,
+              "wall_s": 0.00982213020324707
+            },
+            "fps_triangle": {
+              "frobenius_relative_error": 0.49704609981123127,
+              "spearman_rho": 0.1332362006302368,
+              "mode1_cosine": 0.9153514078696134,
+              "wall_s": 0.013038873672485352
+            },
+            "fps_euclidean": {
+              "frobenius_relative_error": 0.8821802714018588,
+              "spearman_rho": 0.801940117314208,
+              "mode1_cosine": 0.952794699861189,
+              "wall_s": 0.00952005386352539
+            },
+            "fps_nystrom": {
+              "frobenius_relative_error": 0.15234545213627607,
+              "spearman_rho": 0.7075131076732466,
+              "mode1_cosine": 0.9795111404026982,
+              "wall_s": 0.010267019271850586
+            }
+          }
+        },
+        {
+          "K": 200,
+          "methods": {
+            "random_triangle": {
+              "frobenius_relative_error": 0.1518199220186172,
+              "spearman_rho": 0.930398698075161,
+              "mode1_cosine": 0.9979502123375399,
+              "wall_s": 0.016026973724365234
+            },
+            "random_euclidean": {
+              "frobenius_relative_error": 0.8671462657680922,
+              "spearman_rho": 0.732644773811087,
+              "mode1_cosine": 0.9637393989556606,
+              "wall_s": 0.00983119010925293
+            },
+            "random_nystrom": {
+              "frobenius_relative_error": 0.12981782676345952,
+              "spearman_rho": 0.6131079859028017,
+              "mode1_cosine": 0.9717963224918188,
+              "wall_s": 0.011755943298339844
+            },
+            "fps_triangle": {
+              "frobenius_relative_error": 0.15046652853173056,
+              "spearman_rho": 0.8793462766710843,
+              "mode1_cosine": 0.9861231510308011,
+              "wall_s": 0.01604294776916504
+            },
+            "fps_euclidean": {
+              "frobenius_relative_error": 0.8698771115370476,
+              "spearman_rho": 0.8468149144698635,
+              "mode1_cosine": 0.958230574036231,
+              "wall_s": 0.009894132614135742
+            },
+            "fps_nystrom": {
+              "frobenius_relative_error": 1.2851276674569505,
+              "spearman_rho": 0.297243885466531,
+              "mode1_cosine": 0.04891083417805884,
+              "wall_s": 0.012125968933105469
+            }
+          }
+        }
+      ]
+    },
+    "monetary_transmission": {
+      "N": 385,
+      "sweeps": [
+        {
+          "K": 20,
+          "methods": {
+            "random_triangle": {
+              "frobenius_relative_error": 0.6908816093747966,
+              "spearman_rho": 0.5414036186779524,
+              "mode1_cosine": 0.9475775047535393,
+              "wall_s": 0.026128768920898438
+            },
+            "random_euclidean": {
+              "frobenius_relative_error": 0.8082222233438985,
+              "spearman_rho": 0.7129518809903281,
+              "mode1_cosine": 0.9435154637783625,
+              "wall_s": 0.021671056747436523
+            },
+            "random_nystrom": {
+              "frobenius_relative_error": 0.46369438818420466,
+              "spearman_rho": 0.6810948988370835,
+              "mode1_cosine": 0.9183647311429868,
+              "wall_s": 0.021851062774658203
+            },
+            "fps_triangle": {
+              "frobenius_relative_error": 0.7366661871997899,
+              "spearman_rho": 0.39941850823745767,
+              "mode1_cosine": 0.9541020598461954,
+              "wall_s": 0.025365114212036133
+            },
+            "fps_euclidean": {
+              "frobenius_relative_error": 0.8178425460533485,
+              "spearman_rho": 0.689252205521188,
+              "mode1_cosine": 0.9509089532200781,
+              "wall_s": 0.021958112716674805
+            },
+            "fps_nystrom": {
+              "frobenius_relative_error": 0.4458081716176629,
+              "spearman_rho": 0.6487903863866482,
+              "mode1_cosine": 0.978328719309516,
+              "wall_s": 0.021912097930908203
+            }
+          }
+        },
+        {
+          "K": 50,
+          "methods": {
+            "random_triangle": {
+              "frobenius_relative_error": 0.6142950915416714,
+              "spearman_rho": 0.39048102462132217,
+              "mode1_cosine": 0.9670083001317951,
+              "wall_s": 0.029221057891845703
+            },
+            "random_euclidean": {
+              "frobenius_relative_error": 0.8081324859567307,
+              "spearman_rho": 0.7402016426386264,
+              "mode1_cosine": 0.9481952968512423,
+              "wall_s": 0.021771907806396484
+            },
+            "random_nystrom": {
+              "frobenius_relative_error": 0.35034964213839,
+              "spearman_rho": 0.6946960953103913,
+              "mode1_cosine": 0.9952558680939207,
+              "wall_s": 0.022146940231323242
+            },
+            "fps_triangle": {
+              "frobenius_relative_error": 0.660640114122649,
+              "spearman_rho": 0.20860733875548462,
+              "mode1_cosine": 0.9670727584660008,
+              "wall_s": 0.028536081314086914
+            },
+            "fps_euclidean": {
+              "frobenius_relative_error": 0.8007275759432374,
+              "spearman_rho": 0.6704527820270291,
+              "mode1_cosine": 0.9068009210732214,
+              "wall_s": 0.021942138671875
+            },
+            "fps_nystrom": {
+              "frobenius_relative_error": 0.2811015869112893,
+              "spearman_rho": 0.6423991545706396,
+              "mode1_cosine": 0.8498639810302708,
+              "wall_s": 0.022083044052124023
+            }
+          }
+        },
+        {
+          "K": 100,
+          "methods": {
+            "random_triangle": {
+              "frobenius_relative_error": 0.5040045927273514,
+              "spearman_rho": 0.4247028558226052,
+              "mode1_cosine": 0.9772489919778942,
+              "wall_s": 0.03615999221801758
+            },
+            "random_euclidean": {
+              "frobenius_relative_error": 0.8056165451409615,
+              "spearman_rho": 0.7619687107923784,
+              "mode1_cosine": 0.9342081720941107,
+              "wall_s": 0.022037982940673828
+            },
+            "random_nystrom": {
+              "frobenius_relative_error": 0.44305978475789015,
+              "spearman_rho": 0.6110910652290321,
+              "mode1_cosine": 0.061501060617313794,
+              "wall_s": 0.02307415008544922
+            },
+            "fps_triangle": {
+              "frobenius_relative_error": 0.5398245346630794,
+              "spearman_rho": 0.1627854338734919,
+              "mode1_cosine": 0.975475154810604,
+              "wall_s": 0.031100034713745117
+            },
+            "fps_euclidean": {
+              "frobenius_relative_error": 0.8055291215948964,
+              "spearman_rho": 0.7335396304355126,
+              "mode1_cosine": 0.9057259624678007,
+              "wall_s": 0.021913766860961914
+            },
+            "fps_nystrom": {
+              "frobenius_relative_error": 0.45901998607908323,
+              "spearman_rho": 0.48392518484778324,
+              "mode1_cosine": 0.2718299143766163,
+              "wall_s": 0.022626876831054688
+            }
+          }
+        },
+        {
+          "K": 200,
+          "methods": {
+            "random_triangle": {
+              "frobenius_relative_error": 0.3159861460446553,
+              "spearman_rho": 0.633205077106293,
+              "mode1_cosine": 0.9893305164581883,
+              "wall_s": 0.06928110122680664
+            },
+            "random_euclidean": {
+              "frobenius_relative_error": 0.8021869415812676,
+              "spearman_rho": 0.7885716326000566,
+              "mode1_cosine": 0.9319673326410257,
+              "wall_s": 0.022011280059814453
+            },
+            "random_nystrom": {
+              "frobenius_relative_error": 1.0530748100531069,
+              "spearman_rho": 0.45471225914951446,
+              "mode1_cosine": 0.07255087593220456,
+              "wall_s": 0.02451610565185547
+            },
+            "fps_triangle": {
+              "frobenius_relative_error": 0.3122898937092861,
+              "spearman_rho": 0.5213064301176669,
+              "mode1_cosine": 0.984840169849205,
+              "wall_s": 0.03824615478515625
+            },
+            "fps_euclidean": {
+              "frobenius_relative_error": 0.8073202622882575,
+              "spearman_rho": 0.7895779923693362,
+              "mode1_cosine": 0.9152795752510814,
+              "wall_s": 0.022450923919677734
+            },
+            "fps_nystrom": {
+              "frobenius_relative_error": 0.30354388488844253,
+              "spearman_rho": 0.5782465894723612,
+              "mode1_cosine": 0.982732437563856,
+              "wall_s": 0.02431201934814453
+            }
+          }
+        }
+      ]
+    },
+    "okun_law": {
+      "N": 254,
+      "sweeps": [
+        {
+          "K": 20,
+          "methods": {
+            "random_triangle": {
+              "frobenius_relative_error": 0.6176455502867522,
+              "spearman_rho": 0.6820884144865568,
+              "mode1_cosine": 0.9891518109784199,
+              "wall_s": 0.010843992233276367
+            },
+            "random_euclidean": {
+              "frobenius_relative_error": 0.7535103798839518,
+              "spearman_rho": 0.8340860850189631,
+              "mode1_cosine": 0.5332001666098691,
+              "wall_s": 0.00928497314453125
+            },
+            "random_nystrom": {
+              "frobenius_relative_error": 0.44796358334323405,
+              "spearman_rho": 0.8276044719660933,
+              "mode1_cosine": 0.9966836070330255,
+              "wall_s": 0.009634971618652344
+            },
+            "fps_triangle": {
+              "frobenius_relative_error": 0.6220666912621192,
+              "spearman_rho": 0.49502726451591955,
+              "mode1_cosine": 0.9875770975789327,
+              "wall_s": 0.010904788970947266
+            },
+            "fps_euclidean": {
+              "frobenius_relative_error": 0.7509845126445398,
+              "spearman_rho": 0.8756061228238988,
+              "mode1_cosine": 0.5286384694661131,
+              "wall_s": 0.009327888488769531
+            },
+            "fps_nystrom": {
+              "frobenius_relative_error": 0.40479469001719776,
+              "spearman_rho": 0.861787197665299,
+              "mode1_cosine": 0.993407137145513,
+              "wall_s": 0.009468793869018555
+            }
+          }
+        },
+        {
+          "K": 50,
+          "methods": {
+            "random_triangle": {
+              "frobenius_relative_error": 0.5017090976743521,
+              "spearman_rho": 0.5495580558888413,
+              "mode1_cosine": 0.9879130508364474,
+              "wall_s": 0.011706829071044922
+            },
+            "random_euclidean": {
+              "frobenius_relative_error": 0.7407946929655433,
+              "spearman_rho": 0.8396665349422857,
+              "mode1_cosine": 0.5254347570234781,
+              "wall_s": 0.009381771087646484
+            },
+            "random_nystrom": {
+              "frobenius_relative_error": 0.3007487756569531,
+              "spearman_rho": 0.773757596924152,
+              "mode1_cosine": 0.9977630878490934,
+              "wall_s": 0.009726285934448242
+            },
+            "fps_triangle": {
+              "frobenius_relative_error": 0.5154411963634984,
+              "spearman_rho": 0.3841783479626275,
+              "mode1_cosine": 0.9881954968274378,
+              "wall_s": 0.012093782424926758
+            },
+            "fps_euclidean": {
+              "frobenius_relative_error": 0.7534171195234248,
+              "spearman_rho": 0.8873203448251858,
+              "mode1_cosine": 0.5281322362101849,
+              "wall_s": 0.009306907653808594
+            },
+            "fps_nystrom": {
+              "frobenius_relative_error": 0.32424419594824144,
+              "spearman_rho": 0.8287097381038154,
+              "mode1_cosine": 0.9919485273589264,
+              "wall_s": 0.009400606155395508
+            }
+          }
+        },
+        {
+          "K": 100,
+          "methods": {
+            "random_triangle": {
+              "frobenius_relative_error": 0.36579514382596534,
+              "spearman_rho": 0.5365493926029161,
+              "mode1_cosine": 0.9891268192070048,
+              "wall_s": 0.01389312744140625
+            },
+            "random_euclidean": {
+              "frobenius_relative_error": 0.737431544787923,
+              "spearman_rho": 0.8645895130126362,
+              "mode1_cosine": 0.5377966058609356,
+              "wall_s": 0.009321928024291992
+            },
+            "random_nystrom": {
+              "frobenius_relative_error": 0.2577183727451248,
+              "spearman_rho": 0.7632341275649831,
+              "mode1_cosine": 0.9863516615600432,
+              "wall_s": 0.010148763656616211
+            },
+            "fps_triangle": {
+              "frobenius_relative_error": 0.3612617701715378,
+              "spearman_rho": 0.5246662179330932,
+              "mode1_cosine": 0.9737718302450246,
+              "wall_s": 0.013051986694335938
+            },
+            "fps_euclidean": {
+              "frobenius_relative_error": 0.7520504469839056,
+              "spearman_rho": 0.912834559025022,
+              "mode1_cosine": 0.5103754224165646,
+              "wall_s": 0.009488105773925781
+            },
+            "fps_nystrom": {
+              "frobenius_relative_error": 0.18486152249823212,
+              "spearman_rho": 0.8400585430324343,
+              "mode1_cosine": 0.9777505658124603,
+              "wall_s": 0.010114192962646484
+            }
+          }
+        },
+        {
+          "K": 200,
+          "methods": {
+            "random_triangle": {
+              "frobenius_relative_error": 0.12735937417660775,
+              "spearman_rho": 0.9165540167658414,
+              "mode1_cosine": 0.998951352961923,
+              "wall_s": 0.01655411720275879
+            },
+            "random_euclidean": {
+              "frobenius_relative_error": 0.7367147180662214,
+              "spearman_rho": 0.8924268139796783,
+              "mode1_cosine": 0.5282737349774853,
+              "wall_s": 0.009876012802124023
+            },
+            "random_nystrom": {
+              "frobenius_relative_error": 0.17200606565741536,
+              "spearman_rho": 0.8384715522042278,
+              "mode1_cosine": 0.9998410579418924,
+              "wall_s": 0.012133121490478516
+            },
+            "fps_triangle": {
+              "frobenius_relative_error": 0.09897057161843853,
+              "spearman_rho": 0.9347267817564405,
+              "mode1_cosine": 0.9566431036816192,
+              "wall_s": 0.01596379280090332
+            },
+            "fps_euclidean": {
+              "frobenius_relative_error": 0.7476453708300004,
+              "spearman_rho": 0.9265658618449361,
+              "mode1_cosine": 0.4883828700135179,
+              "wall_s": 0.010174989700317383
+            },
+            "fps_nystrom": {
+              "frobenius_relative_error": 0.1777088265920486,
+              "spearman_rho": 0.8763454466976136,
+              "mode1_cosine": 0.9887806153354263,
+              "wall_s": 0.011906623840332031
+            }
+          }
+        }
+      ]
+    },
+    "phillips_curve": {
+      "N": 302,
+      "sweeps": [
+        {
+          "K": 20,
+          "methods": {
+            "random_triangle": {
+              "frobenius_relative_error": 1.0,
+              "spearman_rho": 0.0,
+              "mode1_cosine": 0.011873280595212702,
+              "wall_s": 0.008168935775756836
+            },
+            "random_euclidean": {
+              "frobenius_relative_error": 0.8271536933438657,
+              "spearman_rho": 0.5485149074273128,
+              "mode1_cosine": 0.239188590687955,
+              "wall_s": 0.012866020202636719
+            },
+            "random_nystrom": {
+              "frobenius_relative_error": 0.5337265355283796,
+              "spearman_rho": 0.7046429518824964,
+              "mode1_cosine": 0.24137197634186958,
+              "wall_s": 0.013487100601196289
+            },
+            "fps_triangle": {
+              "frobenius_relative_error": 0.7309768526616505,
+              "spearman_rho": 0.4759087776717117,
+              "mode1_cosine": 0.9060501496627498,
+              "wall_s": 0.014941930770874023
+            },
+            "fps_euclidean": {
+              "frobenius_relative_error": 0.839409296155924,
+              "spearman_rho": 0.6082738581375664,
+              "mode1_cosine": 0.05419911103442718,
+              "wall_s": 0.013167142868041992
+            },
+            "fps_nystrom": {
+              "frobenius_relative_error": 0.8485200454718536,
+              "spearman_rho": 0.5377666553521031,
+              "mode1_cosine": 0.4428939069776493,
+              "wall_s": 0.012923240661621094
+            }
+          }
+        },
+        {
+          "K": 50,
+          "methods": {
+            "random_triangle": {
+              "frobenius_relative_error": 1.0,
+              "spearman_rho": 0.0,
+              "mode1_cosine": 0.011873280595212702,
+              "wall_s": 0.00925302505493164
+            },
+            "random_euclidean": {
+              "frobenius_relative_error": 0.818452048914291,
+              "spearman_rho": 0.5433755734159194,
+              "mode1_cosine": 0.23903106937375723,
+              "wall_s": 0.013002157211303711
+            },
+            "random_nystrom": {
+              "frobenius_relative_error": 0.4193356071915213,
+              "spearman_rho": 0.6778176260971651,
+              "mode1_cosine": 0.8002992797439736,
+              "wall_s": 0.013373136520385742
+            },
+            "fps_triangle": {
+              "frobenius_relative_error": 0.6169438836929776,
+              "spearman_rho": 0.37892981100916623,
+              "mode1_cosine": 0.8631836852286279,
+              "wall_s": 0.01567816734313965
+            },
+            "fps_euclidean": {
+              "frobenius_relative_error": 0.8274608980473254,
+              "spearman_rho": 0.6161358867013172,
+              "mode1_cosine": 0.09622552618581787,
+              "wall_s": 0.012823104858398438
+            },
+            "fps_nystrom": {
+              "frobenius_relative_error": 0.8785959941352802,
+              "spearman_rho": 0.5831754242675097,
+              "mode1_cosine": 0.39837595865821834,
+              "wall_s": 0.013422012329101562
+            }
+          }
+        },
+        {
+          "K": 100,
+          "methods": {
+            "random_triangle": {
+              "frobenius_relative_error": 1.0,
+              "spearman_rho": 0.0,
+              "mode1_cosine": 0.011873280595212702,
+              "wall_s": 0.011500120162963867
+            },
+            "random_euclidean": {
+              "frobenius_relative_error": 0.8121319944404769,
+              "spearman_rho": 0.5829082997100722,
+              "mode1_cosine": 0.2546381941355071,
+              "wall_s": 0.013175010681152344
+            },
+            "random_nystrom": {
+              "frobenius_relative_error": 0.3184578019930119,
+              "spearman_rho": 0.7217172523961094,
+              "mode1_cosine": 0.9072330044828785,
+              "wall_s": 0.013751983642578125
+            },
+            "fps_triangle": {
+              "frobenius_relative_error": 0.46590446341908187,
+              "spearman_rho": 0.4410426462677561,
+              "mode1_cosine": 0.8099927363740305,
+              "wall_s": 0.01804494857788086
+            },
+            "fps_euclidean": {
+              "frobenius_relative_error": 0.8205137577921051,
+              "spearman_rho": 0.636165011398965,
+              "mode1_cosine": 0.14251608800480978,
+              "wall_s": 0.012795209884643555
+            },
+            "fps_nystrom": {
+              "frobenius_relative_error": 1.1920014185895007,
+              "spearman_rho": 0.5831364366006262,
+              "mode1_cosine": 0.27947623030773383,
+              "wall_s": 0.01353001594543457
+            }
+          }
+        },
+        {
+          "K": 200,
+          "methods": {
+            "random_triangle": {
+              "frobenius_relative_error": 1.0,
+              "spearman_rho": 0.0,
+              "mode1_cosine": 0.011873280595212702,
+              "wall_s": 0.01639413833618164
+            },
+            "random_euclidean": {
+              "frobenius_relative_error": 0.806703898176593,
+              "spearman_rho": 0.6285880781441576,
+              "mode1_cosine": 0.2515572273559505,
+              "wall_s": 0.01332402229309082
+            },
+            "random_nystrom": {
+              "frobenius_relative_error": 0.6041351321395977,
+              "spearman_rho": 0.4473907271752167,
+              "mode1_cosine": 0.14680147515351277,
+              "wall_s": 0.015622138977050781
+            },
+            "fps_triangle": {
+              "frobenius_relative_error": 0.2094600202276314,
+              "spearman_rho": 0.8444806898270725,
+              "mode1_cosine": 0.962181110144866,
+              "wall_s": 0.02236008644104004
+            },
+            "fps_euclidean": {
+              "frobenius_relative_error": 0.8134113225143444,
+              "spearman_rho": 0.6623955815544107,
+              "mode1_cosine": 0.19245577886229087,
+              "wall_s": 0.013441085815429688
+            },
+            "fps_nystrom": {
+              "frobenius_relative_error": 0.9792832669917982,
+              "spearman_rho": 0.5973457574187314,
+              "mode1_cosine": 0.35820752196758066,
+              "wall_s": 0.015526056289672852
+            }
+          }
+        }
+      ]
+    },
+    "ppp": {
+      "N": 340,
+      "sweeps": [
+        {
+          "K": 20,
+          "methods": {
+            "random_triangle": {
+              "frobenius_relative_error": 0.6916859173544445,
+              "spearman_rho": 0.7057697321842682,
+              "mode1_cosine": 0.9798131364948531,
+              "wall_s": 0.019203662872314453
+            },
+            "random_euclidean": {
+              "frobenius_relative_error": 0.822782860749526,
+              "spearman_rho": 0.769370328616218,
+              "mode1_cosine": 0.870982137885213,
+              "wall_s": 0.017284154891967773
+            },
+            "random_nystrom": {
+              "frobenius_relative_error": 0.5419516179546588,
+              "spearman_rho": 0.7240476130654407,
+              "mode1_cosine": 0.9899002854371497,
+              "wall_s": 0.017391204833984375
+            },
+            "fps_triangle": {
+              "frobenius_relative_error": 0.7415998625402018,
+              "spearman_rho": 0.3925231866692838,
+              "mode1_cosine": 0.9647878396855214,
+              "wall_s": 0.019034147262573242
+            },
+            "fps_euclidean": {
+              "frobenius_relative_error": 0.835228708799061,
+              "spearman_rho": 0.8326638728079381,
+              "mode1_cosine": 0.9358119755977433,
+              "wall_s": 0.01749897003173828
+            },
+            "fps_nystrom": {
+              "frobenius_relative_error": 0.4419551185958436,
+              "spearman_rho": 0.7258834378229166,
+              "mode1_cosine": 0.671262736374145,
+              "wall_s": 0.01742696762084961
+            }
+          }
+        },
+        {
+          "K": 50,
+          "methods": {
+            "random_triangle": {
+              "frobenius_relative_error": 0.6137397879410645,
+              "spearman_rho": 0.5675836692074475,
+              "mode1_cosine": 0.9709599032105948,
+              "wall_s": 0.021628141403198242
+            },
+            "random_euclidean": {
+              "frobenius_relative_error": 0.8185201869763362,
+              "spearman_rho": 0.784444828648891,
+              "mode1_cosine": 0.8784245286902994,
+              "wall_s": 0.017199039459228516
+            },
+            "random_nystrom": {
+              "frobenius_relative_error": 0.3256944606547692,
+              "spearman_rho": 0.7074374344794919,
+              "mode1_cosine": 0.9685780404799464,
+              "wall_s": 0.017346858978271484
+            },
+            "fps_triangle": {
+              "frobenius_relative_error": 0.6494945566374282,
+              "spearman_rho": 0.2733024307337412,
+              "mode1_cosine": 0.9815760362936448,
+              "wall_s": 0.021275758743286133
+            },
+            "fps_euclidean": {
+              "frobenius_relative_error": 0.8321098253326246,
+              "spearman_rho": 0.8530075879609944,
+              "mode1_cosine": 0.9113700328135242,
+              "wall_s": 0.01724696159362793
+            },
+            "fps_nystrom": {
+              "frobenius_relative_error": 0.41363043453012455,
+              "spearman_rho": 0.7555843329849483,
+              "mode1_cosine": 0.25098360972863004,
+              "wall_s": 0.0176241397857666
+            }
+          }
+        },
+        {
+          "K": 100,
+          "methods": {
+            "random_triangle": {
+              "frobenius_relative_error": 0.4902596214394092,
+              "spearman_rho": 0.4801392591397617,
+              "mode1_cosine": 0.9886611614789556,
+              "wall_s": 0.02481222152709961
+            },
+            "random_euclidean": {
+              "frobenius_relative_error": 0.8154401725134488,
+              "spearman_rho": 0.813078020192379,
+              "mode1_cosine": 0.9045376282561236,
+              "wall_s": 0.017307281494140625
+            },
+            "random_nystrom": {
+              "frobenius_relative_error": 0.16902535104068253,
+              "spearman_rho": 0.6762407016172151,
+              "mode1_cosine": 0.9436230616574861,
+              "wall_s": 0.01800394058227539
+            },
+            "fps_triangle": {
+              "frobenius_relative_error": 0.5166824458226246,
+              "spearman_rho": 0.2764226164704831,
+              "mode1_cosine": 0.9908334542034078,
+              "wall_s": 0.024038076400756836
+            },
+            "fps_euclidean": {
+              "frobenius_relative_error": 0.830731344961415,
+              "spearman_rho": 0.8902145651173985,
+              "mode1_cosine": 0.8899287204886419,
+              "wall_s": 0.017195940017700195
+            },
+            "fps_nystrom": {
+              "frobenius_relative_error": 0.20515521426483188,
+              "spearman_rho": 0.8023731525791634,
+              "mode1_cosine": 0.9974837353579595,
+              "wall_s": 0.017612934112548828
+            }
+          }
+        },
+        {
+          "K": 200,
+          "methods": {
+            "random_triangle": {
+              "frobenius_relative_error": 0.27590840685445667,
+              "spearman_rho": 0.7555719283953612,
+              "mode1_cosine": 0.9926955015295298,
+              "wall_s": 0.02956223487854004
+            },
+            "random_euclidean": {
+              "frobenius_relative_error": 0.8146083824081651,
+              "spearman_rho": 0.8514807964015987,
+              "mode1_cosine": 0.8949902482623954,
+              "wall_s": 0.017549753189086914
+            },
+            "random_nystrom": {
+              "frobenius_relative_error": 0.33354038209670495,
+              "spearman_rho": 0.5943341246114847,
+              "mode1_cosine": 0.3211708692296604,
+              "wall_s": 0.019960880279541016
+            },
+            "fps_triangle": {
+              "frobenius_relative_error": 0.27469431792349386,
+              "spearman_rho": 0.6744216660016268,
+              "mode1_cosine": 0.9795138714270395,
+              "wall_s": 0.02898406982421875
+            },
+            "fps_euclidean": {
+              "frobenius_relative_error": 0.8242890678692248,
+              "spearman_rho": 0.923125396241837,
+              "mode1_cosine": 0.8840999827015971,
+              "wall_s": 0.017270803451538086
+            },
+            "fps_nystrom": {
+              "frobenius_relative_error": 0.23490933452339588,
+              "spearman_rho": 0.6592020219844004,
+              "mode1_cosine": 0.8972174711392422,
+              "wall_s": 0.019412994384765625
+            }
+          }
+        }
+      ]
+    },
+    "solow_growth": {
+      "N": 500,
+      "sweeps": [
+        {
+          "K": 20,
+          "methods": {
+            "random_triangle": {
+              "frobenius_relative_error": 0.6700105376346314,
+              "spearman_rho": 0.7706906653667902,
+              "mode1_cosine": 0.10341487198796939,
+              "wall_s": 0.043076276779174805
+            },
+            "random_euclidean": {
+              "frobenius_relative_error": 0.7943254222136934,
+              "spearman_rho": 0.6968857575570447,
+              "mode1_cosine": 0.4622250474666459,
+              "wall_s": 0.03739619255065918
+            },
+            "random_nystrom": {
+              "frobenius_relative_error": 0.4936634787190964,
+              "spearman_rho": 0.7924070117202406,
+              "mode1_cosine": 0.6022662741851238,
+              "wall_s": 0.03924822807312012
+            },
+            "fps_triangle": {
+              "frobenius_relative_error": 0.7243672507400535,
+              "spearman_rho": 0.5420122625703547,
+              "mode1_cosine": 0.23010658600826644,
+              "wall_s": 0.04236602783203125
+            },
+            "fps_euclidean": {
+              "frobenius_relative_error": 0.8364923996969873,
+              "spearman_rho": 0.7230419811708875,
+              "mode1_cosine": 0.2159473751964659,
+              "wall_s": 0.03845095634460449
+            },
+            "fps_nystrom": {
+              "frobenius_relative_error": 0.7412522317505134,
+              "spearman_rho": 0.6961944467018635,
+              "mode1_cosine": 0.47346964999805474,
+              "wall_s": 0.03902792930603027
+            }
+          }
+        },
+        {
+          "K": 50,
+          "methods": {
+            "random_triangle": {
+              "frobenius_relative_error": 1.0,
+              "spearman_rho": 0.0,
+              "mode1_cosine": 0.03753213681164675,
+              "wall_s": 0.02814006805419922
+            },
+            "random_euclidean": {
+              "frobenius_relative_error": 0.7936416174758395,
+              "spearman_rho": 0.6918615919096128,
+              "mode1_cosine": 0.4606702365496378,
+              "wall_s": 0.039259910583496094
+            },
+            "random_nystrom": {
+              "frobenius_relative_error": 0.3836215609194851,
+              "spearman_rho": 0.7213025993616415,
+              "mode1_cosine": 0.14057697189333818,
+              "wall_s": 0.03899216651916504
+            },
+            "fps_triangle": {
+              "frobenius_relative_error": 0.6383354454947646,
+              "spearman_rho": 0.48899303213358936,
+              "mode1_cosine": 0.051663486739769324,
+              "wall_s": 0.047348976135253906
+            },
+            "fps_euclidean": {
+              "frobenius_relative_error": 0.8153441800794246,
+              "spearman_rho": 0.7356725294934512,
+              "mode1_cosine": 0.22361137211781057,
+              "wall_s": 0.03798508644104004
+            },
+            "fps_nystrom": {
+              "frobenius_relative_error": 0.6857606293560825,
+              "spearman_rho": 0.6944277225552967,
+              "mode1_cosine": 0.5308433546604957,
+              "wall_s": 0.03917694091796875
+            }
+          }
+        },
+        {
+          "K": 100,
+          "methods": {
+            "random_triangle": {
+              "frobenius_relative_error": 1.0,
+              "spearman_rho": 0.0,
+              "mode1_cosine": 0.03753213681164675,
+              "wall_s": 0.0344998836517334
+            },
+            "random_euclidean": {
+              "frobenius_relative_error": 0.7958406107360728,
+              "spearman_rho": 0.7057957600144844,
+              "mode1_cosine": 0.4505680919243857,
+              "wall_s": 0.038349151611328125
+            },
+            "random_nystrom": {
+              "frobenius_relative_error": 0.3080800303683819,
+              "spearman_rho": 0.7168322576308804,
+              "mode1_cosine": 0.9468231762689765,
+              "wall_s": 0.03917503356933594
+            },
+            "fps_triangle": {
+              "frobenius_relative_error": 0.5533814043247937,
+              "spearman_rho": 0.4537316340724074,
+              "mode1_cosine": 0.24186052793558577,
+              "wall_s": 0.0529632568359375
+            },
+            "fps_euclidean": {
+              "frobenius_relative_error": 0.801336424136635,
+              "spearman_rho": 0.7431382503043307,
+              "mode1_cosine": 0.36408113722671726,
+              "wall_s": 0.03875875473022461
+            },
+            "fps_nystrom": {
+              "frobenius_relative_error": 0.8180281986754494,
+              "spearman_rho": 0.6583571938190094,
+              "mode1_cosine": 0.46552934274323504,
+              "wall_s": 0.03898286819458008
+            }
+          }
+        },
+        {
+          "K": 200,
+          "methods": {
+            "random_triangle": {
+              "frobenius_relative_error": 1.0,
+              "spearman_rho": 0.0,
+              "mode1_cosine": 0.03753213681164675,
+              "wall_s": 0.08355093002319336
+            },
+            "random_euclidean": {
+              "frobenius_relative_error": 0.7917999226998041,
+              "spearman_rho": 0.7411732019557826,
+              "mode1_cosine": 0.4601869621275598,
+              "wall_s": 0.03931689262390137
+            },
+            "random_nystrom": {
+              "frobenius_relative_error": 0.5729775213369779,
+              "spearman_rho": 0.6074634386941467,
+              "mode1_cosine": 0.08196250533933572,
+              "wall_s": 0.04027986526489258
+            },
+            "fps_triangle": {
+              "frobenius_relative_error": 0.39519027757100134,
+              "spearman_rho": 0.5681936145578445,
+              "mode1_cosine": 0.7507281483812855,
+              "wall_s": 0.06551980972290039
+            },
+            "fps_euclidean": {
+              "frobenius_relative_error": 0.7936242859305176,
+              "spearman_rho": 0.7547756414339314,
+              "mode1_cosine": 0.4243481564716453,
+              "wall_s": 0.03895282745361328
+            },
+            "fps_nystrom": {
+              "frobenius_relative_error": 1.4609126421270353,
+              "spearman_rho": 0.6655158186948179,
+              "mode1_cosine": 0.3389748942454375,
+              "wall_s": 0.04117298126220703
+            }
+          }
+        }
+      ]
+    }
+  }
+}

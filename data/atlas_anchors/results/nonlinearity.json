@@ -1,0 +1,110 @@
+[
+  {
+    "law": "phillips",
+    "theoretical_dof_reference": 3,
+    "d_eff": 2,
+    "d_pca_elbow": 2,
+    "participation_ratio": 3.8360590881254866,
+    "participation_ratio_normalized": 0.9590147720313716,
+    "hellinger_over_frobenius": 15.643019240798338,
+    "hellinger_over_frobenius_normalized": 0.782150962039917,
+    "bandwidth_dynamic_range": 1.094668603491622,
+    "rho_geodesic_over_euclidean": 1.1713161829350902,
+    "homology_barycenter": {
+      "beta_1": 0,
+      "max_persistence_h1": 0.026222605258226395,
+      "n_h1_above_threshold": 0,
+      "diameter": 0.9265856009610144,
+      "threshold_10pct": 0.09265856009610145
+    },
+    "homology_pca_projection": {
+      "beta_1": 0,
+      "max_persistence_h1": 0.16627013683319092,
+      "n_h1_above_threshold": 0,
+      "diameter": 8.136796282269339,
+      "threshold_10pct": 0.813679628226934
+    },
+    "n_members": 5,
+    "sample_window": {
+      "start": "2003-02-01",
+      "end": "2019-12-31"
+    },
+    "gates": {
+      "pr_over_d_eff_above_1p5": true,
+      "rho_above_1p3": false,
+      "h_over_f_norm_above_0p5": true
+    }
+  },
+  {
+    "law": "okun",
+    "theoretical_dof_reference": 4,
+    "d_eff": 2,
+    "d_pca_elbow": 2,
+    "participation_ratio": 3.970559445317347,
+    "participation_ratio_normalized": 0.9926398613293368,
+    "hellinger_over_frobenius": 11.953020530821266,
+    "hellinger_over_frobenius_normalized": 0.5976510265410633,
+    "bandwidth_dynamic_range": 1.095944204420182,
+    "rho_geodesic_over_euclidean": 1.0742285166743928,
+    "homology_barycenter": {
+      "beta_1": 1,
+      "max_persistence_h1": 0.11777082085609436,
+      "n_h1_above_threshold": 1,
+      "diameter": 1.0251081869512444,
+      "threshold_10pct": 0.10251081869512445
+    },
+    "homology_pca_projection": {
+      "beta_1": 0,
+      "max_persistence_h1": 0.6146652102470398,
+      "n_h1_above_threshold": 0,
+      "diameter": 8.706477166302571,
+      "threshold_10pct": 0.8706477166302572
+    },
+    "n_members": 5,
+    "sample_window": {
+      "start": "1970-01-01",
+      "end": "2019-12-31"
+    },
+    "gates": {
+      "pr_over_d_eff_above_1p5": true,
+      "rho_above_1p3": false,
+      "h_over_f_norm_above_0p5": true
+    }
+  },
+  {
+    "law": "solow",
+    "theoretical_dof_reference": 4,
+    "d_eff": 2,
+    "d_pca_elbow": 2,
+    "participation_ratio": 3.3927149297384642,
+    "participation_ratio_normalized": 0.8481787324346161,
+    "hellinger_over_frobenius": 15.17789676748807,
+    "hellinger_over_frobenius_normalized": 0.7588948383744035,
+    "bandwidth_dynamic_range": 1.2322503644851894,
+    "rho_geodesic_over_euclidean": 1.6461683919672725,
+    "homology_barycenter": {
+      "beta_1": 0,
+      "max_persistence_h1": 0.05703660845756531,
+      "n_h1_above_threshold": 0,
+      "diameter": 0.9877093629681499,
+      "threshold_10pct": 0.09877093629681499
+    },
+    "homology_pca_projection": {
+      "beta_1": 0,
+      "max_persistence_h1": 0.04352539777755737,
+      "n_h1_above_threshold": 0,
+      "diameter": 7.084514395264493,
+      "threshold_10pct": 0.7084514395264493
+    },
+    "n_members": 5,
+    "sample_window": {
+      "start": "1990-01-01",
+      "end": "2019-12-31"
+    },
+    "gates": {
+      "pr_over_d_eff_above_1p5": true,
+      "rho_above_1p3": true,
+      "h_over_f_norm_above_0p5": true
+    }
+  }
+]

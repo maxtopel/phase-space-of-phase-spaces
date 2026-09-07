@@ -1,0 +1,126 @@
+{
+  "eval_n": 1500,
+  "scaling": [
+    {
+      "N_frechet": 10,
+      "coifman_dim": 7.168395898133895,
+      "lmethod_knee": 2,
+      "coifman_dim_coords": 5.275981951114847,
+      "n_distinct": 1494,
+      "two_nn": 10.789647629134897,
+      "levina_bickel": 20.45016823222765,
+      "primary": 20.45016823222765,
+      "curvature": 1.737623119850427,
+      "gap": 10.686328548204441
+    },
+    {
+      "N_frechet": 25,
+      "coifman_dim": 7.3161287933968,
+      "lmethod_knee": 5,
+      "coifman_dim_coords": 5.643231071683783,
+      "n_distinct": 1494,
+      "two_nn": 10.446704479450501,
+      "levina_bickel": 19.9173741073084,
+      "primary": 19.9173741073084,
+      "curvature": 1.7302357922016762,
+      "gap": 9.010316594886529
+    },
+    {
+      "N_frechet": 50,
+      "coifman_dim": 6.637786374304156,
+      "lmethod_knee": 3,
+      "coifman_dim_coords": 5.353668754017189,
+      "n_distinct": 1494,
+      "two_nn": 10.447212374180156,
+      "levina_bickel": 17.279998902836134,
+      "primary": 17.279998902836134,
+      "curvature": 1.6975416540043768,
+      "gap": 8.073233256989903
+    },
+    {
+      "N_frechet": 100,
+      "coifman_dim": 6.954203884139197,
+      "lmethod_knee": 3,
+      "coifman_dim_coords": 5.570502769509051,
+      "n_distinct": 1494,
+      "two_nn": 10.48371343710462,
+      "levina_bickel": 17.47829838589734,
+      "primary": 17.47829838589734,
+      "curvature": 1.7659346714604063,
+      "gap": 5.45731297644135
+    },
+    {
+      "N_frechet": 250,
+      "coifman_dim": 6.742300643210683,
+      "lmethod_knee": 3,
+      "coifman_dim_coords": 5.514621118748856,
+      "n_distinct": 1494,
+      "two_nn": 10.466379904765578,
+      "levina_bickel": 17.725362504811358,
+      "primary": 17.725362504811358,
+      "curvature": 1.7244870468334152,
+      "gap": 4.165260051023803
+    },
+    {
+      "N_frechet": 500,
+      "coifman_dim": 6.693081708813281,
+      "lmethod_knee": 6,
+      "coifman_dim_coords": 5.513938359168506,
+      "n_distinct": 1494,
+      "two_nn": 10.657836646008258,
+      "levina_bickel": 17.226746548344458,
+      "primary": 17.226746548344458,
+      "curvature": 1.737871212682041,
+      "gap": 3.584749495179997
+    },
+    {
+      "N_frechet": 1000,
+      "coifman_dim": 6.762088443147192,
+      "lmethod_knee": 7,
+      "coifman_dim_coords": 5.493858364589016,
+      "n_distinct": 1494,
+      "two_nn": 10.528755319750415,
+      "levina_bickel": 17.444286647894007,
+      "primary": 17.444286647894007,
+      "curvature": 1.7526529506457464,
+      "gap": 3.621665351991356
+    },
+    {
+      "N_frechet": 2000,
+      "coifman_dim": 6.799331712253299,
+      "lmethod_knee": 3,
+      "coifman_dim_coords": 5.526009843829549,
+      "n_distinct": 1494,
+      "two_nn": 10.66553314211438,
+      "levina_bickel": 17.342217714036074,
+      "primary": 17.342217714036074,
+      "curvature": 1.7496247171423658,
+      "gap": 3.456041870832664
+    },
+    {
+      "N_frechet": 4000,
+      "coifman_dim": 6.807098872610986,
+      "lmethod_knee": 10,
+      "coifman_dim_coords": 5.562282573486289,
+      "n_distinct": 1494,
+      "two_nn": 11.015047697215955,
+      "levina_bickel": 17.47362165823473,
+      "primary": 17.47362165823473,
+      "curvature": 1.749040899868971,
+      "gap": 3.210293921887833
+    },
+    {
+      "N_frechet": 8000,
+      "coifman_dim": 6.820484135295267,
+      "lmethod_knee": 3,
+      "coifman_dim_coords": 5.559237701053188,
+      "n_distinct": 1494,
+      "two_nn": 10.937281914849514,
+      "levina_bickel": 17.532184277990776,
+      "primary": 17.532184277990776,
+      "curvature": 1.7507787008395077,
+      "gap": 3.291939565014736
+    }
+  ],
+  "eps": 0.008
+}

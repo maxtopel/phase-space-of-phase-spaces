@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: >-
+  If you use this reproduction code, please cite the accompanying paper.
+title: >-
+  Phase spaces of phase spaces: reproduction code
+authors:
+  - family-names: Topel
+    given-names: Maximilian
+    affiliation: Department of Applied Mathematics, Northwestern University
+license: MIT
+type: software
+repository-code: "https://github.com/maxtopel/phase-space-of-phase-spaces"
+preferred-citation:
+  type: article
+  title: >-
+    Phase spaces of phase spaces: A method of constructing
+    generalizable and topologically informed bases from time
+    series demonstrated by reconstruction of the geometry of
+    the macroeconomy
+  authors:
+    - family-names: Topel
+      given-names: Maximilian
+  year: 2026

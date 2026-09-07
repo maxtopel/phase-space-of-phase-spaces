@@ -1,0 +1,32 @@
+Vendored modules -- attribution
+==============================
+
+The contents of this directory are verbatim copies of modules originally
+written for the (private) Atlas research codebase, redistributed here so
+that the public reproduction package is self-contained.
+
+Vendored contents:
+  aoa_v3/                   -- the full pipeline package (embed, dmap, gw,
+                               barycenter, aoa, sensitivity, predict, data,
+                               viz, and supporting loaders)
+  config.py                 -- pipeline configuration dataclasses
+  embed.py                  -- Takens delay embedding + AMI/FNN selection
+  diffuse.py                -- per-series diffusion maps (dense + Nystrom)
+  landscape.py              -- domain / universal landscape objects
+  transport.py              -- transport-plan DMAP coordinates
+  synthetic_gate.py         -- synthetic validation gate (12-family zoo)
+  eps008_complete_layer1.py -- layer 1-3 results at eps = 0.008
+
+Copyright (c) Maximilian Topel; redistributed under the MIT license of the
+parent this repository:  package (see ../LICENSE).
+
+These modules depend only on packages listed in this repository: requirements.txt.
+aoa_repro.config.use_vendor() adds this directory to sys.path so the bare
+`from config import ...` / `from embed import ...` statements inside the
+vendored modules resolve; aoa_repro/_vendor/ keeps the original minimal trio
+(embed, diffuse, config) for back-compat.
+
+If the Atlas modules are subsequently published as a standalone package,
+this directory should be replaced with an ordinary dependency declaration
+in requirements.txt and the local files removed.
+descriptors.py  (attractor descriptor battery; vendored for landscape.estimate_d_eff)

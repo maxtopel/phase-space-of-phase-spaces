@@ -1,0 +1,49 @@
+{
+  "n": 11928,
+  "n_controls": 156,
+  "n_allfreq": 35224,
+  "by_source": {
+    "bis": 504,
+    "boc": 19,
+    "boe": 345,
+    "boj": 10,
+    "ecb": 8753,
+    "fred": 101,
+    "oecd": 1646,
+    "rba": 19,
+    "snb": 32,
+    "yahoo": 499
+  },
+  "by_concept": {
+    "credit": 81,
+    "exchange_rate": 1379,
+    "inflation": 125,
+    "bis-other": 71,
+    "boc-other": 19,
+    "boe-other": 225,
+    "gdp": 66,
+    "labor": 4,
+    "capital": 84,
+    "interest_rate": 3053,
+    "trade": 20,
+    "unemployment": 43,
+    "boj-other": 9,
+    "ecb-other": 4589,
+    "fred-other": 83,
+    "oecd-other": 1596,
+    "rba-other": 19,
+    "snb-other": 32,
+    "yahoo-other": 430
+  },
+  "by_timescale": {
+    "quarterly": 507,
+    "monthly": 11420,
+    "annual": 1
+  },
+  "min_points": 200,
+  "macro_freq": [
+    "annual",
+    "quarterly",
+    "monthly"
+  ]
+}

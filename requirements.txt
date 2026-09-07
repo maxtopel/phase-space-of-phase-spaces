@@ -1,0 +1,13 @@
+# Phase spaces of phase spaces: reproduction requirements
+# Tested with Python 3.13 on macOS (versions are lower bounds known to work).
+numpy>=2.1
+scipy>=1.15
+scikit-learn>=1.7
+matplotlib>=3.10
+POT>=0.9.6          # optimal transport (ot): GW distances/barycenters
+umap-learn>=0.5.11  # Fig. 4 UMAP panel
+ripser>=0.6         # persistent homology (beta_1 / H1 diagrams)
+pandas>=2.0         # vendored aoa_v3.data loader and the velocity figure
+h5py>=3.0           # vendored aoa_v3 gw/barycenter checkpointing
+dysts               # Fig. 2 synthetic zoo regeneration only (cached costs ship)
+# optional, not needed for any paper figure: statsmodels, arch (aoa_v3 extras)

@@ -1,0 +1,32 @@
+{
+  "n": 17025,
+  "by_source": {
+    "bis": 580,
+    "boc": 19,
+    "boe": 599,
+    "boj": 11,
+    "ecb": 7393,
+    "fred": 98,
+    "oecd": 1711,
+    "pwt": 2634,
+    "rba": 40,
+    "snb": 33,
+    "worldbank": 3408,
+    "yahoo": 499
+  },
+  "by_indicator": {
+    "credit": 127,
+    "exchange_rate": 2169,
+    "inflation": 262,
+    "other": 8627,
+    "capital": 190,
+    "gdp": 1437,
+    "labor": 1175,
+    "interest_rate": 2744,
+    "trade": 42,
+    "unemployment": 44,
+    "tfp": 208
+  },
+  "min_points": 60,
+  "concept_cap": 0.12
+}

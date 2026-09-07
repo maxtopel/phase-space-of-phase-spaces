@@ -1,0 +1,114 @@
+{
+  "high_res_n200": {
+    "name": "n>=200 high-res",
+    "n_valid": 11928,
+    "n_distinct": 2400,
+    "dedup_applied": false,
+    "dominant_modes": {
+      "mean": 6.8,
+      "sd": 2.8035691537752374
+    },
+    "full_dim": {
+      "mean": 5.582005782962922,
+      "sd": 0.2747070401569298
+    },
+    "per_concept_full_dim": {
+      "ecb-other": {
+        "mean": 6.22,
+        "sd": 0.04,
+        "n": 1074
+      },
+      "exchange_rate": {
+        "mean": 4.87,
+        "sd": 0.06,
+        "n": 226
+      },
+      "interest_rate": {
+        "mean": 5.81,
+        "sd": 0.05,
+        "n": 608
+      },
+      "oecd-other": {
+        "mean": 5.09,
+        "sd": 0.06,
+        "n": 271
+      }
+    }
+  },
+  "distributed_n60": {
+    "name": "distributed n>=60",
+    "n_valid": 17025,
+    "n_distinct": 10091,
+    "dedup_applied": false,
+    "dominant_modes": {
+      "mean": 7.95,
+      "sd": 2.2907422377910613
+    },
+    "full_dim": {
+      "mean": 6.052803708770606,
+      "sd": 0.1891707937854136
+    },
+    "per_concept_full_dim": {
+      "boe-other": {
+        "mean": 4.41,
+        "sd": 0.07,
+        "n": 166
+      },
+      "capital": {
+        "mean": 4.08,
+        "sd": 0.08,
+        "n": 123
+      },
+      "ecb-other": {
+        "mean": 6.5,
+        "sd": 0.04,
+        "n": 1303
+      },
+      "exchange_rate": {
+        "mean": 6.3,
+        "sd": 0.03,
+        "n": 1005
+      },
+      "gdp": {
+        "mean": 6.5,
+        "sd": 0.06,
+        "n": 1156
+      },
+      "inflation": {
+        "mean": 4.67,
+        "sd": 0.07,
+        "n": 184
+      },
+      "interest_rate": {
+        "mean": 6.59,
+        "sd": 0.05,
+        "n": 1241
+      },
+      "labor": {
+        "mean": 6.96,
+        "sd": 0.05,
+        "n": 1131
+      },
+      "oecd-other": {
+        "mean": 6.27,
+        "sd": 0.04,
+        "n": 675
+      },
+      "pwt-other": {
+        "mean": 6.1,
+        "sd": 0.04,
+        "n": 1155
+      },
+      "tfp": {
+        "mean": 4.64,
+        "sd": 0.1,
+        "n": 203
+      },
+      "worldbank-other": {
+        "mean": 6.92,
+        "sd": 0.03,
+        "n": 1389
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "n_distinct": 10150,
+  "single_global": {
+    "coifman_dim": 7.87405192839352,
+    "spectral_dim_95var": 14,
+    "lmethod_knee": 4,
+    "eigenvalues": [
+      0.0856227729692221,
+      0.07584604505431483,
+      0.06279208780807366,
+      0.052202115468066135,
+      0.04735928292183048,
+      0.04437680923897449,
+      0.04345168175588461,
+      0.042865763958105756
+    ]
+  },
+  "degeneracy": {
+    "rates_dim": 7.800120908009767,
+    "real_activity_dim": 7.676809012989551,
+    "fx_dim": 7.390587637370281
+  },
+  "per_concept_dim": {
+    "boe-other": 5.28,
+    "capital": 4.89,
+    "ecb-other": 7.46,
+    "exchange_rate": 7.34,
+    "gdp": 7.51,
+    "inflation": 5.5,
+    "interest_rate": 7.66,
+    "labor": 7.95,
+    "oecd-other": 7.22,
+    "pwt-other": 7.07,
+    "tfp": 5.46,
+    "worldbank-other": 7.94,
+    "yahoo-other": 4.78
+  }
+}

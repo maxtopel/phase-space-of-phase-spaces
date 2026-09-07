@@ -1,0 +1,150 @@
+{
+  "high_res_n200": {
+    "name": "n>=200 high-res",
+    "n_valid": 11928,
+    "n_distinct": 11605,
+    "dedup_applied": false,
+    "dominant_modes": {
+      "mean": 2.0,
+      "sd": 0.0
+    },
+    "full_dim": {
+      "mean": 8.375994382373314,
+      "sd": 0.28950447372229793
+    },
+    "per_concept_matched_n": 155,
+    "per_concept_full_dim": {
+      "boe-other": {
+        "mean": 5.71,
+        "sd": 0.04,
+        "n_available": 225,
+        "n_matched": 155
+      },
+      "ecb-other": {
+        "mean": 5.81,
+        "sd": 0.02,
+        "n_available": 4589,
+        "n_matched": 155
+      },
+      "exchange_rate": {
+        "mean": 5.41,
+        "sd": 0.57,
+        "n_available": 1379,
+        "n_matched": 155
+      },
+      "interest_rate": {
+        "mean": 5.81,
+        "sd": 0.02,
+        "n_available": 3053,
+        "n_matched": 155
+      },
+      "oecd-other": {
+        "mean": 5.82,
+        "sd": 0.01,
+        "n_available": 1596,
+        "n_matched": 155
+      },
+      "yahoo-other": {
+        "mean": 5.53,
+        "sd": 0.05,
+        "n_available": 430,
+        "n_matched": 155
+      }
+    }
+  },
+  "distributed_n60": {
+    "name": "distributed n>=60",
+    "n_valid": 17025,
+    "n_distinct": 16756,
+    "dedup_applied": false,
+    "dominant_modes": {
+      "mean": 3.875,
+      "sd": 1.2686114456365274
+    },
+    "full_dim": {
+      "mean": 7.304471385835917,
+      "sd": 0.214695276773785
+    },
+    "per_concept_matched_n": 167,
+    "per_concept_full_dim": {
+      "boe-other": {
+        "mean": 4.83,
+        "sd": 0.06,
+        "n_available": 356,
+        "n_matched": 167
+      },
+      "capital": {
+        "mean": 3.57,
+        "sd": 0.04,
+        "n_available": 190,
+        "n_matched": 167
+      },
+      "ecb-other": {
+        "mean": 4.95,
+        "sd": 0.09,
+        "n_available": 2744,
+        "n_matched": 167
+      },
+      "exchange_rate": {
+        "mean": 4.52,
+        "sd": 0.28,
+        "n_available": 2169,
+        "n_matched": 167
+      },
+      "gdp": {
+        "mean": 4.33,
+        "sd": 0.1,
+        "n_available": 1437,
+        "n_matched": 167
+      },
+      "inflation": {
+        "mean": 3.94,
+        "sd": 0.06,
+        "n_available": 262,
+        "n_matched": 167
+      },
+      "interest_rate": {
+        "mean": 5.31,
+        "sd": 0.07,
+        "n_available": 2744,
+        "n_matched": 167
+      },
+      "labor": {
+        "mean": 5.66,
+        "sd": 0.07,
+        "n_available": 1175,
+        "n_matched": 167
+      },
+      "oecd-other": {
+        "mean": 5.13,
+        "sd": 0.08,
+        "n_available": 1635,
+        "n_matched": 167
+      },
+      "pwt-other": {
+        "mean": 4.8,
+        "sd": 0.06,
+        "n_available": 1759,
+        "n_matched": 167
+      },
+      "tfp": {
+        "mean": 5.59,
+        "sd": 0.02,
+        "n_available": 208,
+        "n_matched": 167
+      },
+      "worldbank-other": {
+        "mean": 5.79,
+        "sd": 0.05,
+        "n_available": 1411,
+        "n_matched": 167
+      },
+      "yahoo-other": {
+        "mean": 4.87,
+        "sd": 0.06,
+        "n_available": 430,
+        "n_matched": 167
+      }
+    }
+  }
+}

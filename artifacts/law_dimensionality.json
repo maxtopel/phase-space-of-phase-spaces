@@ -1,0 +1,107 @@
+{
+  "Phillips": {
+    "label": "Phillips",
+    "n": 812,
+    "sigma_auto": 0.32224347190639524,
+    "median_dist": 2.1482898127093017,
+    "coifman_dim": 1.9092634473041201,
+    "lmethod_knee": 5,
+    "spectral_dim_95var": 15,
+    "spectral_gap_at": 10,
+    "eigenvalues": [
+      0.999999849834022,
+      0.9999016700186845,
+      0.994192576084033,
+      0.9937180591737389,
+      0.9896880426917793,
+      0.9885748728606112,
+      0.9812548321753477,
+      0.975927987006595
+    ],
+    "topology": {
+      "angular_coverage": 0.16666666666666666,
+      "frac_near_center": 0.0024630541871921183,
+      "loop_like": false
+    },
+    "raw2d_topology": {
+      "angular_coverage": 1.0,
+      "frac_near_center": 0.0428921568627451,
+      "loop_like": true,
+      "H1_top_persistence": 0.6547253429889679,
+      "n_significant_loops": 8,
+      "H1_dominant_ratio": 1.0381603588796777
+    }
+  },
+  "Solow": {
+    "label": "Solow",
+    "n": 312,
+    "sigma_auto": 0.3613347429374429,
+    "median_dist": 2.4088982862496193,
+    "coifman_dim": 1.9584599745353977,
+    "lmethod_knee": 8,
+    "spectral_dim_95var": 14,
+    "spectral_gap_at": 8,
+    "eigenvalues": [
+      0.9956476295877427,
+      0.9852327055999878,
+      0.9754740136263003,
+      0.9562421559031326,
+      0.9398211538933599,
+      0.9159280273737459,
+      0.9001396417224911,
+      0.8952878686786274
+    ],
+    "topology": {
+      "angular_coverage": 0.7083333333333334,
+      "frac_near_center": 0.0,
+      "loop_like": false,
+      "H1_top_persistence": 0.0006856098771095276,
+      "n_significant_loops": 2,
+      "H1_dominant_ratio": 1.3458318441458248
+    },
+    "raw2d_topology": {
+      "angular_coverage": 1.0,
+      "frac_near_center": 0.015822784810126583,
+      "loop_like": true,
+      "H1_top_persistence": 0.259098082780838,
+      "n_significant_loops": 3,
+      "H1_dominant_ratio": 1.1658269941072286
+    }
+  },
+  "Okun": {
+    "label": "Okun",
+    "n": 308,
+    "sigma_auto": 0.26957624361347093,
+    "median_dist": 1.7971749574231395,
+    "coifman_dim": 2.4574049537481883,
+    "lmethod_knee": 13,
+    "spectral_dim_95var": 15,
+    "spectral_gap_at": 8,
+    "eigenvalues": [
+      0.9999754820082751,
+      0.9986761889458399,
+      0.9974690757472043,
+      0.997187400319568,
+      0.9958764669037261,
+      0.9912140204020081,
+      0.9876948641554054,
+      0.9808480744228967
+    ],
+    "topology": {
+      "angular_coverage": 0.5416666666666666,
+      "frac_near_center": 0.006493506493506494,
+      "loop_like": false,
+      "H1_top_persistence": 5.761231295764446e-05,
+      "n_significant_loops": 1,
+      "H1_dominant_ratio": 1.1354229162771117
+    },
+    "raw2d_topology": {
+      "angular_coverage": 1.0,
+      "frac_near_center": 0.07051282051282051,
+      "loop_like": true,
+      "H1_top_persistence": 0.20507702231407166,
+      "n_significant_loops": 5,
+      "H1_dominant_ratio": 1.1389339451569955
+    }
+  }
+}

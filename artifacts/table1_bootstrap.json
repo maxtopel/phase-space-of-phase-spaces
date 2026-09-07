@@ -1,0 +1,54 @@
+{
+  "Phillips": {
+    "n": 812,
+    "n_boot": 40,
+    "frac": 0.85,
+    "corr_dim_d2": 1.5914033798324845,
+    "corr_dim_sd": 0.015959378688004736,
+    "coifman_dim": 1.86882152520263,
+    "coifman_sd": 0.016270196212493107,
+    "lmethod_knee": 5.925,
+    "lmethod_sd": 1.9285681216902866,
+    "beta1": 7.225,
+    "beta1_sd": 0.9871043511199817
+  },
+  "Okun": {
+    "n": 308,
+    "n_boot": 40,
+    "frac": 0.85,
+    "corr_dim_d2": NaN,
+    "corr_dim_sd": NaN,
+    "coifman_dim": 2.3995303338124554,
+    "coifman_sd": 0.020804211666714024,
+    "lmethod_knee": 10.025,
+    "lmethod_sd": 2.2190932833028896,
+    "beta1": 3.675,
+    "beta1_sd": 0.9845684333757608
+  },
+  "Solow": {
+    "n": 312,
+    "n_boot": 40,
+    "frac": 0.85,
+    "corr_dim_d2": 2.3847150032126994,
+    "corr_dim_sd": 0.07097349525447356,
+    "coifman_dim": 1.923336697645992,
+    "coifman_sd": 0.02084737454153576,
+    "lmethod_knee": 7.45,
+    "lmethod_sd": 1.70220445305492,
+    "beta1": 3.05,
+    "beta1_sd": 0.8351646544245033
+  },
+  "Universal": {
+    "n": 400,
+    "n_boot": 40,
+    "frac": 0.85,
+    "corr_dim_d2": NaN,
+    "corr_dim_sd": NaN,
+    "coifman_dim": 4.974238822723009,
+    "coifman_sd": 0.032431138510898266,
+    "lmethod_knee": 2.0,
+    "lmethod_sd": 0.0,
+    "beta1": 4.75,
+    "beta1_sd": 1.3181426326464067
+  }
+}
